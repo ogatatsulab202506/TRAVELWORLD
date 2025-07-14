@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+	<meta charset="UTF-8">
+	<title>新着情報登録</title>
+	<link rel="stylesheet" href="style_pc.css">
+</head>
+
+<body>
+	<h1>新着情報登録</h1>
+	<form th:action="@{/newsInsert/confirm}" method="post" th:object="${newsInsertForm}">
+		<p>日付：<input type="date" th:field="*{newsDate}"></p>
+		<p>新着情報：<input type="text" th:field="*{newsText}"></p>
+		<p class="submit"><input type="submit" value="確認"></p>
+	</form>
+</body>
+
+</html>

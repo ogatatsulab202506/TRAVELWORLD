@@ -1,0 +1,7 @@
+create table news(id serial primary key, news_date date, news_text varchar(255));
+
+insert into news(news_date,news_text ) values ('2023-09-01', 'エールフランス、ルフトハンザ航空のヨーロッパ行きが最大10,000円キャッシュバック！');
+insert into news(news_date,news_text ) values ('2023-09-05','イタリアはミラノ・フィレンツェ・ローマ旅が10月〜12月のキャンペーン期間中は平日のみ最大40%OFF!');
+insert into news(news_date,news_text ) values ('2023-09-08','KLMオランダ航空が9月20日から羽田〜シアトル間の運行を開始！');
+insert into news(news_date,news_text ) values ('2023-10-01','年末年始のプランを開始しました！');
+insert into news(news_date,news_text ) values ('2023-10-10','2024年版世界遺産カレンダーの販売を開始しました');
